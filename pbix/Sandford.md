@@ -3,11 +3,15 @@
 
 **Methodology**
 
-1. Merge three-year data into PowerBI
-2. Build a fact table, add a date column with default date of 01 July with corresponding financial year
-3. Build dimension tables on Countries, Species, Product
+- File Structures
+  1. Create a folder called **PowerBI** containing the source data (CSVs)
+  2. Create a subfolder called **pbix** under **PowerBI** containing a pbix file for the assignment and a MD file
+
+1. In PowerBI desktop, merge the three-year data into one file
+2. Based on the merged data, build a fact table, add a date column with default date of 01 July with corresponding financial year
+3. Duplicate fact table, build dimension tables on Countries, Species, Product
 4. Build a Dates table 
-5. Build a star schema to relate the fact and dimension tables
+5. Build a star schema by joining  fact, dimension and date tables
 6. Build measures
 	-	Value 
 	-	Volume 
@@ -15,8 +19,9 @@
 	-	Previous Year Volume 
 	-	Average Value / Volume
 	-	Year-On-Year growth on : Value, Volume and Average Price Value/Volume 
-7.	Built a table and a line chart for visualisations / reports
-8.	Built pages on PowerBI
+7.	Build a table and a line chart for visualisations / reports
+8.	Build pages on PowerBI containing necessary tables and charts
+9.  Start analysis
 
 **Right Market: Which countries offer best growth/pricing?**
 From the Right Countries page based on the 2025 FY TOP 15 countries by value, there are a couple of countries with over one million dollars in total value showing growth on both volume and value over the previous FY.
